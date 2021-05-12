@@ -1,0 +1,80 @@
+body{
+    font-family: Arial;
+    
+}
+
+h1 {
+    color: darkblue;
+    width: 450px;
+    margin: 15px auto;
+    text-align: center;
+}
+small.title-text {
+    display: block;
+    color: #444;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.main {
+    width: 100%;
+    margin:100px 0;
+    text-align: center;
+}
+.main .profile{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 10px ;
+    position: relative;
+}
+.main .profile .marks{
+    font-size: 4em;
+    margin-bottom: -.5em;
+    color: darkblue;
+}
+.main .profile .text {
+    display: inline-block;
+    text-align: center;
+    margin: 2px 40px;
+    color: #444;
+
+}
+.main .profile .rate {
+    margin-top: 10px;
+    color: orange;
+}
+.main .profile .name {
+    display: block;
+    color: darkblue;
+    margin-top: 10px;
+}
+.main .profile .date{
+    font-size: .6em;
+    margin-top: 10px;
+}
+.main .profile .photo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    position: absolute;
+    right: 125px;
+    top: -50px;
+    border-radius: 50px;
+
+}
+.main .profile .photo .avatar {
+    width: 90px;
+}
+
+
+
+@media(max-width:1000px){
+    .main .profile{
+        display: block;
+        margin: 0 auto 100px auto ;
+        
+    }
+}
